@@ -5,7 +5,7 @@
 Запросы в postman для тестирования:
 <ul>Жанры
 <li>'POST' http://localhost:5000/genre </br> body: {"name": "horror"} - добавляем жанр</li>
-<li>'POST' http://localhost:5000/genre body: {"name": "thriller"} - добавляем жанр</li>
+<li>'POST' http://localhost:5000/genre   body: {"name": "thriller"} - добавляем жанр</li>
 <li>'POST' http://localhost:5000/genre body: {"name": "comedy"} - добавляем жанр</li>
 <li>'GET' http://localhost:5000/genres - получаем все жанры</li>
 <li>'GET' http://localhost:5000/genre?id=2 - получаем жанр по id</li>
